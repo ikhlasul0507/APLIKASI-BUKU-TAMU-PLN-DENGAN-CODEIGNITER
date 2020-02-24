@@ -1,0 +1,245 @@
+html {
+  font-family: viga;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.navbar {
+  background: linear-gradient(to right, #EEEEEE, #428dff);
+  box-shadow: 0 0 7px 0px rgb(99, 99, 99);
+}
+
+.navfont {
+  font-family: viga;
+  font-size: 20px;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.card,
+.isi {
+  box-shadow: 0 0 13px 0px #2a7dd7;
+  margin-top: 20px;
+}
+
+.namaapk {
+  margin-top: 20px;
+  font-family: viga;
+  text-transform: uppercase;
+}
+
+.lokasipln {
+  margin-top: 40px;
+
+  box-shadow: 0px 0px 7px 1px black;
+}
+
+.textlokasi {
+  margin-top: 20px;
+  font-family: viga;
+  text-transform: uppercase;
+}
+
+.mdr-content a:link,
+.mdr-content a:visited {
+  color: #1dadf7;
+}
+
+#back-to-top.show {
+  opacity: 1;
+}
+
+#back-to-top {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  z-index: 9999;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  line-height: 30px;
+  background: rgba(84, 225, 0, 0.18);
+  color: #ffffff;
+  cursor: pointer;
+  border: 0;
+  text-decoration: none;
+  transition: all 0.5s ease;
+  opacity: 0;
+  display: none;
+  background: #428dff;
+}
+
+.show {
+  display: block !important;
+}
+
+.berita {
+  margin-top: 20px;
+}
+
+.judulberita {
+  margin-top: 40px;
+}
+
+
+.page-title .title {
+  position: relative;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #8790af;
+  font-weight: 600;
+}
+
+
+.text-center.page-title .title:before,
+.page-title .title:after {
+  content: '';
+  width: 50px;
+  height: 1px;
+  display: inline-block;
+  background-color: #e1e1e1;
+  margin: 0 15px;
+  -webkit-transform: translateY(-4px);
+  -ms-transform: translateY(-4px);
+  transform: translateY(-4px);
+}
+
+:after,
+:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* price box */
+.price-box {
+  border-radius: 5px;
+  overflow: hidden;
+  text-align: center;
+  color: #8790af;
+  -webkit-box-shadow: 0 0 15px -5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 15px -5px rgba(0, 0, 0, 0.1);
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.price-box:hover {
+  -webkit-box-shadow: 0 0 50px -15px #4d43c6;
+  box-shadow: 0 0 50px -15px #4d43c6;
+}
+
+.price-box .price-header {
+  background-color: #f2f3fc;
+  padding: 40px;
+  color: #768ede;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#482cbf+0,6ac6f0+100 */
+  background: rgb(72, 44, 191);
+  /* Old browsers */
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, rgba(72, 44, 191, 1) 0%, rgba(106, 198, 240, 1) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: -o-linear-gradient(45deg, rgba(72, 44, 191, 1) 0%, rgba(106, 198, 240, 1) 100%);
+  background: linear-gradient(45deg, rgba(72, 44, 191, 1) 0%, rgba(106, 198, 240, 1) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#482cbf', endColorstr='#6ac6f0', GradientType=1);
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.price-box .price-header:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #f2f3fc;
+  z-index: -1;
+  opacity: 1;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.price-box:hover .price-header {
+  color: #ffffff;
+}
+
+.price-box:hover .price-header:before {
+  opacity: 0;
+}
+
+
+.price-box .price-header .price-icon {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.price-box .price-header h4 {
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+.price-box .price-body {
+  padding: 40px;
+}
+
+.price-box .price-body ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.price-box .price-rate {
+  color: #768ede;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.price-box .price-rate sup {
+  top: -20px;
+  font-size: 26px;
+}
+
+.price-box .price-rate .rate {
+  font-size: 56px;
+}
+
+.price-box .price-footer {
+  margin-bottom: 40px;
+}
+
+.price-box .price-footer .bttn-white {
+  padding: 13px 50px;
+}
+
+.price-box .price-footer .bttn-white:before {
+  width: calc(100% - 4px);
+  height: calc(100% - 4px);
+  border-radius: 100px;
+  left: 2px;
+  top: 2px;
+}
+
+
+/* berita */
+.card-img,
+.berita {
+  margin: 10px;
+  margin-top: 20px;
+}
+
+.gambarmodal {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
